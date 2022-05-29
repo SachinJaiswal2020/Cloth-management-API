@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "629331e40a0ef8d17b113d11"
+  },
+  "name": "RUN IT TEE",
+  "brand": "Adidas",
+  "price": 2300,
+  "color": "Red",
+  "category": "TShirt",
+  "image": "1653813732812-88562918.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629332110a0ef8d17b113d14"
+  },
+  "name": "MICKEY AND FRIENDS TEE",
+  "brand": "Adidas",
+  "price": 3799,
+  "color": "Black",
+  "category": "TShirt",
+  "image": "1653813777312-286020726.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6293324f0a0ef8d17b113d17"
+  },
+  "name": "Graphic Fleece Hoodie",
+  "brand": "Nike",
+  "price": 3995,
+  "color": "Black",
+  "category": "Hoodie",
+  "image": "1653813838958-753464165.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629332e10a0ef8d17b113d1d"
+  },
+  "name": "Graphic Full-Zip Hoodie",
+  "brand": "Nike",
+  "price": 8995,
+  "color": "Coconut",
+  "category": "Hoodie",
+  "image": "1653813985032-664966462.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "629333130a0ef8d17b113d20"
+  },
+  "name": "Basketball Crew Sweatshirt",
+  "brand": "Nike",
+  "price": 2595,
+  "color": "Black",
+  "category": "Sweatshirt",
+  "image": "1653814035197-309917733.png",
+  "__v": 0
+}]
