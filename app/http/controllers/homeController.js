@@ -1,12 +1,15 @@
-const { serializeUser } = require("../../config/Auth");
+// const { serializeUser } = require("../../config/Auth");
+const Cloth = require("../../model/Cloth");
 
 function homeController() {
   return {
     async index(req, res) {
-      return res.json(serializeUser(req.user));
+      const clothes = await Cloth.find();
+      return res.json({ message: "Hello User", status: true, clothes });
     },
     async adminDashboard(req, res) {
-      return res.json({message: "hello admin", status: true});
+      const clothes = await Cloth.find();
+      return res.json({ message: "Hello Admin", status: true, clothes });
     },
   };
 }
