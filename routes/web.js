@@ -1,6 +1,7 @@
 const homeController = require("../app/http/controllers/homeController");
 const authController = require("../app/http/controllers/authController");
 const crudController = require("../app/http/controllers/crudController");
+const searchController = require("../app/http/controllers/searchController");
 
 // middleware 
 const { userAuth, checkRole } = require("../app/config/Auth");
@@ -14,7 +15,7 @@ function initRoutes(app) {
   app.post("/admin-add-cloth", userAuth, checkRole(['admin']), crudController().add);
   app.put("/admin-update-cloth/:id", userAuth, checkRole(['admin']), crudController().update);
   app.delete("/admin-delete-cloth/:id", userAuth, checkRole(['admin']), crudController().delete);
-
+  app.get("/search", userAuth, searchController().search);
 }
 
 module.exports = initRoutes;
