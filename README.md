@@ -8,7 +8,7 @@
 #### For using this API download the source code then install all the packages
  `  npm install `
 
-- Change the Database url
+- Change the Database url in config.env file
 
  `  npm start `
  
